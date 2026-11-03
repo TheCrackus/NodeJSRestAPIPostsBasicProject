@@ -1,0 +1,20 @@
+{
+  "name": "nodejsrestapibasicproject",
+  "version": "1.0.0",
+  "description": "This is a NodeJS API basic project. ",
+  "license": "ISC",
+  "author": "Edgar Carreño Fonseca",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
