@@ -24,9 +24,14 @@ exports.createPost = (req, res, next) => {
     res.status(201).json({
         message: 'Post was created successfully!',
         post: {
-            id: new Date().toISOString,
+            _id: '2',
             title: title,
-            content: content
+            content: content,
+            imageUrl: 'images/astronaut_toy.png',
+            creator: {
+                name: 'Edgar CF'
+            },
+            createdAt: new Date()
         }
     });
 };
